@@ -8,6 +8,9 @@ public class spawnManager : MonoBehaviour
     private float spawnRange = 9;
     public int enemyCount;
     public int waveNumber = 1;
+
+    public float lowerBoundary;
+    public float upperBoundary;
     public GameObject powerupPrefab;
     // Start is called before the first frame update
     void Start()
